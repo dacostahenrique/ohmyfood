@@ -1,0 +1,13 @@
+.proche {
+  display: grid;
+  grid-template-column: 1fr;
+  width: 45%;
+  margin-top: 30px;
+  margin-bottom: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: green;
+  border-radius: 15%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center; }
