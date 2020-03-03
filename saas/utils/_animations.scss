@@ -1,0 +1,41 @@
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-5px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(5px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-20px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(20px, 0, 0);
+  }
+}
+
+
+@keyframes pulse {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: .20;
+    transform: scale(.70);
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 0%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 100%;
+    width: 200%;
+  }
+}

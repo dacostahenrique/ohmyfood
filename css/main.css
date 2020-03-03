@@ -1,3 +1,26 @@
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-5px, 0, 0); }
+  20%, 80% {
+    transform: translate3d(5px, 0, 0); }
+  30%, 50%, 70% {
+    transform: translate3d(-20px, 0, 0); }
+  40%, 60% {
+    transform: translate3d(20px, 0, 0); } }
+@keyframes pulse {
+  from {
+    opacity: 1;
+    transform: scale(1); }
+  to {
+    opacity: .20;
+    transform: scale(0.7); } }
+@keyframes slidein {
+  from {
+    margin-right: 0%;
+    width: 100%; }
+  to {
+    margin-left: 100%;
+    width: 200%; } }
 .header {
   width: 100%;
   background-color: green;
@@ -6,8 +29,8 @@
   text-align: center; }
 
 .header img {
-  width: 300px;
-  height: auto; }
+  width: 400px;
+  height: 80px; }
 
 .footer {
   width: 100%;
@@ -24,30 +47,55 @@
 .footer a {
   text-decoration: none;
   outline: none;
-  color: black;
-  font-size: 1.2rem; }
+  color: yellow;
+  font-size: 1.5rem; }
 
 .footer__mention-legale {
   text-align: left;
-  padding-left: 20px; }
+  padding-left: 20px;
+  transition-property: animation; }
+  .footer__mention-legale:hover {
+    animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both; }
 
 .footer__contact {
   text-align: right;
-  padding-right: 20px; }
+  padding-right: 20px;
+  transition-property: animation; }
+  .footer__contact:hover {
+    animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both; }
 
 .proche {
   display: grid;
   grid-template-column: 1fr;
   width: 45%;
   margin-top: 30px;
-  margin-bottom: 90px;
+  margin-bottom: 95px;
   margin-left: auto;
   margin-right: auto;
   background-color: green;
-  border-radius: 15%;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  text-align: center; }
+  border-radius: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: yellow;
+  font-size: 1.5rem; }
+
+.bulle {
+  display: inline-block;
+  width: 0.4em;
+  height: 0.4em;
+  border-radius: 50%;
+  background-color: yellow;
+  transition-property: animation; }
+
+.bulle-1 {
+  animation: pulse .4s ease 0s infinite alternate; }
+
+.bulle-2 {
+  animation: pulse .4s ease .2s infinite alternate; }
+
+.bulle-3 {
+  animation: pulse .4s ease .4s infinite alternate; }
 
 .accueil {
   width: 100%;
@@ -67,3 +115,10 @@
 .restaurant img {
   width: 550px;
   height: auto; }
+
+.restaurant__menu {
+  box-shadow: 5px 5px 5px 5px gray; }
+
+.restaurant__menu img:hover {
+  opacity: 0.3;
+  transform: scale(1.1); }
