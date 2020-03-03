@@ -24,13 +24,13 @@
 .header {
   width: 100%;
   background-color: green;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   text-align: center; }
 
 .header img {
-  width: 400px;
-  height: 80px; }
+  width: 30%;
+  height: auto; }
 
 .footer {
   width: 100%;
@@ -39,8 +39,8 @@
   box-sizing: content-box;
   justify-content: space-between;
   background-color: green;
-  padding-bottom: 15px;
-  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
   position: fixed;
   bottom: 0; }
 
@@ -48,7 +48,7 @@
   text-decoration: none;
   outline: none;
   color: yellow;
-  font-size: 1.5rem; }
+  font-size: 1rem; }
 
 .footer__mention-legale {
   text-align: left;
@@ -78,7 +78,7 @@
   padding-bottom: 10px;
   text-align: center;
   color: yellow;
-  font-size: 1.5rem; }
+  font-size: 1rem; }
 
 .bulle {
   display: inline-block;
@@ -102,23 +102,30 @@
   font-size: 1rem; }
 
 .restaurant {
-  width: 100%;
+  width: 80%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-column-gap: 1px;
+  grid-column-gap: 50px;
   grid-row-gap: 50px;
-  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 30px;
   margin-bottom: 30px; }
 
 .restaurant img {
-  width: 550px;
+  width: 100%;
   height: auto; }
 
 .restaurant__menu {
-  box-shadow: 5px 5px 5px 5px gray; }
+  box-shadow: 5px 5px 5px 5px gray;
+  overflow: hidden; }
 
 .restaurant__menu img:hover {
   opacity: 0.3;
   transform: scale(1.1); }
+
+.menu__chic-francais, .menu__delice-papilles, .menu__note-enchantee, .menu__palette-gout {
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+  font-size: 1rem; }

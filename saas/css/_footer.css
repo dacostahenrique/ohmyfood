@@ -5,8 +5,8 @@
   box-sizing: content-box;
   justify-content: space-between;
   background-color: green;
-  padding-bottom: 15px;
-  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
   position: fixed;
   bottom: 0; }
 
@@ -14,7 +14,7 @@
   text-decoration: none;
   outline: none;
   color: yellow;
-  font-size: 1.5rem; }
+  font-size: 1rem; }
 
 .footer__mention-legale {
   text-align: left;
