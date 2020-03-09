@@ -1,3 +1,5 @@
+@import "../utils/variables";
+
 .proche {
 display:grid;
 grid-template-column: 1fr;
@@ -6,7 +8,7 @@ margin-top: 30px;
 margin-bottom: 95px;
 margin-left: auto;
 margin-right: auto;
-background-color: green;
+background-color: map-get($header-footer_proche,coul_fond);
 border-radius: 10%;
 padding-top: 10px;
 padding-bottom: 10px;
@@ -19,7 +21,7 @@ font-size: 1rem}
 	width: 0.4em;
 	height: 0.4em;
 	border-radius: 50%;
-	background-color: yellow;
+	background-color: map-get($header-footer_proche,coul_text);
 	transition-property: animation;
 }
 

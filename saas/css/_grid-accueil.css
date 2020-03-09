@@ -1,6 +1,12 @@
-.accueil {
+body {
+  padding: 0;
+  margin: 0; }
+
+.bloc_page {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  font-size: 1rem; }
+  padding: 0; }
 
 .restaurant {
   width: 80%;

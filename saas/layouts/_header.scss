@@ -1,12 +1,16 @@
 
+@import "../utils/variables";
+
 .header {
 width: 100%;
-background-color: green;
-padding-top: 5px;
-padding-bottom: 5px;
-text-align: center;}
+background-color: map-get($header-footer_proche,coul_fond);
+padding: 10px 0;
+text-align: center;
+}
 
 
 .header img{
 width: 30%;
-height: auto;}
+height: auto;
+color:map-get($header-footer_proche,coul_logo);
+}

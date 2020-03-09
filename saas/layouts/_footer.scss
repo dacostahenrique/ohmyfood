@@ -1,32 +1,35 @@
+@import "../utils/variables";
+
 .footer{
-width: 100%;
+box-sizing: content-box;
 display:grid;
 grid-template-columns: 1fr 1fr; 
-box-sizing: content-box;
-justify-content: space-between;
-background-color: green;
+background-color: map-get($header-footer_proche,coul_fond);
 padding-bottom: 5px;
 padding-top: 5px;
 position:fixed;
-bottom:0;}
+bottom:0;
+left:0;
+right:0;
+}
 
 .footer a{
 text-decoration: none;
 outline: none;
-color:yellow;
-font-size:1rem;}
+color:map-get($header-footer_proche,coul_text);
+}
 
 
 .footer__mention-legale{
 text-align: left;
-padding-left: 20px;
+padding-left: 30px;
 transition-property: animation;
 	&:hover{
   		animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;}}
   		
 .footer__contact{
 text-align: right;
-padding-right: 20px;
+padding-right: 30px;
 transition-property: animation;
 	&:hover{
   		animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;}}

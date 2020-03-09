@@ -1,0 +1,17 @@
+@mixin trait_gauche {
+	display:inline-block;
+	vertical-align:middle;
+	margin-left: -20%;
+	margin-right: 5%;
+	width: 30%;
+	overflow:hidden;
+}
+
+@mixin trait_droite{
+	display:inline-block;
+  	vertical-align: middle;
+  	margin-left: 5%;
+  	margin-right: -10%;
+	width: 30%;
+	overflow:hidden;
+}

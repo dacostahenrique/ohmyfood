@@ -5,26 +5,30 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--<link rel="stylesheet" href="../css/all.css"> -->
 	<link rel="stylesheet" href="../css/main.css">
+
+	 <!--Création d'un lien vers le site Font Awesome pour utilisation en page html des icônes utilisés dans le corps du CV-->
+     <script src="https://kit.fontawesome.com/ed4e83e54e.js" crossorigin="anonymous"></script>
+
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	<title>Ohmyfood - La Note Enchantée</title>
 	<meta name="description" content="Projet 3 - Parcours Dev. Web - Henrique Da Costa">
 </head>
 <body>
+<div class="bloc_page"> <!--Bloc page note enchantée-->
 	<header class="header">
 		<a href="../index.html"><img class="header__logo" src="../img/Logo-ohmyfood.png" alt="Logo Ohmyfood"></a>
 	</header>
 	
 	<section class="menu menu__note-enchantee">
 		<header class="menu__header">
-			<i class="fab fa-itunes-note menu__header__logo"></i>
+			<!--<span style="color: #ffcc00;"><i class="fab fa-itunes-note menu__header__logo"></i></span>-->
+			<img class="note_music" src="../img/note-music.png" alt="note de musique">
 			<h2 class="menu__header-nom">La note enchantée</h2>
 		</header>
 
 		<article class="menu__entree">
 			<div class="menu__entree-titre">
-				<div class="trait-gauche"></div>
 				<h3 class="titre">Prélude</h3>
-				<div class="trait-droite"></div>
 			</div>
 
 			<ul class="menu__choix">
@@ -51,11 +55,8 @@
 		<article class="menu__plat">
 
 			<div class="menu__plat-titre">
-				<div class="trait-gauche"></div>
 				<h3 class="titre">
-					Point d'orgue
-				</h3>
-				<div class="trait-droite"></div>
+					Point d'orgue</h3>
 			</div>
 
 			<ul class="menu__choix">
@@ -71,14 +72,13 @@
 				<li class="choix__prix">169€</li>
 			</ul>
 		</article>
+		
 		<article class="menu__dessert">
 			<div class="menu__dessert-titre">
-				<div class="trait-gauche"></div>
 				<h3 class="titre">
-					Mouvement final
-				</h3>
-				<div class="trait-droite"></div>
+					Mouvement final</h3>
 			</div>
+
 			<ul class="menu__choix">
 				<li class="choix__plat">Macaron noisette et chocolat, glace au caramel brun et sel de Guérande</li>
 				<li class="choix__prix">.</li>
@@ -92,10 +92,12 @@
 				<li class="choix__prix">.</li>
 			</ul>
 		</article>
+
 		<div class="menu__footer">
-			<i class="fab fa-itunes-note menu__footer__logo"></i>
-			<p> La note enchantée</p>
+			<img class="menu__footer__note-music" src="../img/note-music-footer.png" alt="note de musique">
+			<p class="menu__footer__name">La note enchantée</p>
 		</div>
+
 	</section>
 
 	<footer class="footer">
@@ -106,6 +108,6 @@
 			<p><a href="mailto:adresse@gmail.fr">Contactez-nous</a></p>
 		</div>
 	</footer>
-
+</div>
 </body>
 </html>
