@@ -1,17 +1,22 @@
-@mixin trait_gauche {
-	display:inline-block;
-	vertical-align:middle;
-	margin-left: -20%;
-	margin-right: 5%;
-	width: 30%;
-	overflow:hidden;
+@import "../utils/variables";
+@import "../base/polices";
+
+
+
+@mixin couleur-fond-police($restaurant){
+	 background-color: map-get($restaurant,coul_fond_page);
+	 box-shadow: 5px 5px 5px 5px gray;
+	 overflow:hidden;
+	 font-family: map-get($restaurant,font);
+}
+	
+
+@mixin couleur-police-titre($restaurant){
+	h2{
+		font-size:2rem;
+		color:map-get($restaurant,coul_titre-rest);}	 
+	h3{
+		font-size:1.4rem;
+		color:map-get($restaurant,coul_titre-ent);}
 }
 
-@mixin trait_droite{
-	display:inline-block;
-  	vertical-align: middle;
-  	margin-left: 5%;
-  	margin-right: -10%;
-	width: 30%;
-	overflow:hidden;
-}

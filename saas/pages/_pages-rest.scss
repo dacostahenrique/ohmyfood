@@ -1,20 +1,26 @@
 @import "../utils/mixins";
 @import "../utils/variables";
+@import "../base/polices";
 
 .bloc_page{
 	display:flex;
 	flex-direction: column;
 	width: 100%;
+	height:100%;
 }
 
-.menu__chic-francais, .menu__delice-papilles, .menu__note-enchantee, .menu__palette-gout{
-	margin-bottom: 50px;
-	padding-bottom: 10px;
-	font-size:1rem;
+section{
+	display:flex;
+	flex-direction: column;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top:2%;
+	margin-bottom: 7%;
+	font-size:1.2rem;
 }
 
-.menu__note-enchantee{
-	font-style: oblique 50deg;
+h2, h3{
+	text-align: center;
 }
 
 
@@ -41,132 +47,85 @@ ul{
 .menu__header{
 	display:flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
-	margin-right: 8%;
-}
+	margin-top:5%;
+	font-size: 2rem;
 
-.menu__footer{
-	width: 60%;
-	display:flex;
-	flex: 1 3;
-	margin-left: 35%;
 }
 
 .note_music{
-	width: 15%;
+	width: 10%;
 	height: auto;
 }
 
+.menu__header-nom{
+	margin-top: 0;
+}
+
+.menu__footer{
+	width: 100%;
+	height: 30%;
+	display:flex;
+	justify-content: center;
+	margin-bottom: 5%;
+}
+
+
 .menu__footer__name{
 	text-align: left;
+	margin-bottom: 0;
+	font-size: 2rem;
+	
 	
 }
  .menu__footer__note-music{
- 	width:15%;
+ 	width:5%;
  	height: auto;
- 	text-align: right;
+ 	
  }
 	
-.menu{
-	margin-top: 50px;
+
+
+
+.menu__entree-titre, .menu__plat-titre, .menu__dessert-titre{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height:40%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
-section{
-	display:flex;
-	flex-direction: column;
-	margin-left: 15%;
-	margin-right: 15%;
-}
-
-h2, h3{
-	text-align: center;
-}
-
-.menu__note-enchantee h3::before{
-	content:url(../img/trait-note.png);
-	@include trait_gauche;
-
-}
-
-.menu__note-enchantee h3::after{
-	content:url(../img/trait-note.png);
-	@include trait_droite;
-  	}
-
-
-.menu__chic-francais .titre1::before{
-	content:url(../img/chic_1_g.png);
-	@include trait_gauche;
-
-}
-
-.menu__chic-francais .titre1::after{
-	content:url(../img/chic_1_d.png);
-	@include trait_droite;
-
-  	}
-
-.menu__chic-francais .titre2::before{
-	content:url(../img/chic_2_g.png);
-	@include trait_gauche;
-
-}
-
-.menu__chic-francais .titre2::after{
-	content:url(../img/chic_2_d.png);
-	@include trait_droite;
-
-  	}
-
-.menu__chic-francais .titre3::before{
-	content:url(../img/chic_3_g.png);
-	@include trait_gauche;
-
-}
-
-.menu__chic-francais .titre3::after{
-	content:url(../img/chic_3_d.png);
-	@include trait_droite;
-
-}
-
-.menu__delice-papilles .titre1::before{
-	content:url(../img/delice_1_g.png);
-	@include trait_gauche;	
-}
-
-.menu__delice-papilles .titre1::after{
-	content:url(../img/delice_1_d.png);
-	@include trait_droite;	
-}
-
-.menu__delice-papilles .titre2::before{
-	content:url(../img/delice_2_g.png);
-	@include trait_gauche;	
-}
-
-.menu__delice-papilles .titre2::after{
-	content:url(../img/delice_2_d.png);
-	@include trait_droite;	
-}
-
-.menu__delice-papilles .titre3::before{
-	content:url(../img/delice_3_g.png);
-	@include trait_gauche;	
-}
-
-.menu__delice-papilles .titre3::after{
-	content:url(../img/delice_3_d.png);
-	@include trait_droite;	
+.trait__gauche, .trait__droit{
+	width: 30%;
 }
 
 
-.menu__palette-gout .titre::before{
-	content:url(../img/palette_g.png);
-	@include trait_gauche;	
+
+.menu__note-enchantee{
+	@include couleur-fond-police($note_enchantee);
+	@include couleur-police-titre($note_enchantee);
 }
 
-.menu__palette-gout .titre::after{
-	content:url(../img/palette_d.png);
-	@include trait_droite;	
+.menu__chic-francais{
+	@include couleur-fond-police($chic_francais);
+	@include couleur-police-titre($chic_francais);
+	.menu__entree{
+		color:map-get($chic_francais,coul_text_ent);}
+		.menu__plat{
+			color:map-get($chic_francais,coul_text_plat);}
+			.menu__dessert{
+				color:map-get($chic_francais,coul_text_des);}
 }
+
+.menu__delice-papilles{
+	@include couleur-fond-police($delice_papille);
+	@include couleur-police-titre($delice_papille);
+}
+
+.menu__palette-gout{
+	@include couleur-fond-police($palette_gout);
+	@include couleur-police-titre($palette_gout);
+}
+

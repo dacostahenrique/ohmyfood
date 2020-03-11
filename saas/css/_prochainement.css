@@ -1,18 +1,18 @@
 .proche {
   display: grid;
   grid-template-column: 1fr;
-  width: 45%;
-  margin-top: 30px;
-  margin-bottom: 95px;
+  width: 40%;
+  margin-top: 1%;
+  margin-bottom: 7%;
   margin-left: auto;
   margin-right: auto;
   background-color: #579C87;
-  border-radius: 10%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  border-radius: 8%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   text-align: center;
   color: yellow;
-  font-size: 1rem; }
+  font-size: 1.2rem; }
 
 .bulle {
   display: inline-block;
