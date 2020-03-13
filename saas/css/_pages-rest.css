@@ -71,6 +71,18 @@
   src: url("../police/Roboto/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../police/Roboto/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.woff2") format("woff2"), url("../police/Roboto/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.woff") format("woff"), url("../police/Roboto/roboto_lightcondenseditalic_macromanRobotoCondensed-LightItalic-webfont.ttf") format("truetype"), url("../police/Roboto/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.svg#roboto_condensedlight_italic") format("svg");
   font-weight: normal;
   font-style: normal; }
+/*Typo_comics light italic */
+@font-face {
+  font-family: "typo_comics_light_italic_demo";
+  src: url("../police/TYpo_comics/typo_comics_light_italic_demo.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/* Kauchan script */
+@font-face {
+  font-family: "kaushanscript-regular";
+  src: url("../police/Kauchan_script/kaushanscript-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 /* Police Note enchant├®e - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "Devonshire-Regular";
@@ -143,6 +155,21 @@
   src: url("../police/Roboto/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../police/Roboto/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.woff2") format("woff2"), url("../police/Roboto/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.woff") format("woff"), url("../police/Roboto/roboto_lightcondenseditalic_macromanRobotoCondensed-LightItalic-webfont.ttf") format("truetype"), url("../police/Roboto/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.svg#roboto_condensedlight_italic") format("svg");
   font-weight: normal;
   font-style: normal; }
+/*Typo_comics light italic */
+@font-face {
+  font-family: "typo_comics_light_italic_demo";
+  src: url("../police/TYpo_comics/typo_comics_light_italic_demo.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/* Kauchan script */
+@font-face {
+  font-family: "kaushanscript-regular";
+  src: url("../police/Kauchan_script/kaushanscript-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+.mention_legale {
+  text-align: justify; }
+
 .bloc_page {
   display: flex;
   flex-direction: column;
@@ -222,37 +249,36 @@ ul {
   background-color: #FCDFDB;
   box-shadow: 5px 5px 5px 5px gray;
   overflow: hidden;
-  font-family: "Devonshire-Regular"; }
-  .menu__note-enchantee h2 {
-    font-size: 2rem; }
-  .menu__note-enchantee h3 {
-    font-size: 1.4rem; }
+  font-family: "typo_comics_light_italic_demo";
+  color: #501921; }
+  .menu__note-enchantee h2, .menu__note-enchantee .menu__footer__name {
+    font-family: "Devonshire-Regular"; }
 
 .menu__chic-francais {
   background-color: #FFF5FE;
   box-shadow: 5px 5px 5px 5px gray;
   overflow: hidden;
   font-family: "JD Carnival Black"; }
-  .menu__chic-francais h2 {
-    font-size: 2rem; }
-  .menu__chic-francais h3 {
-    font-size: 1.4rem; }
   .menu__chic-francais .menu__entree {
     color: #D18C3E; }
   .menu__chic-francais .menu__plat {
     color: #A56799; }
   .menu__chic-francais .menu__dessert {
     color: #6E4CCC; }
+  .menu__chic-francais h2 {
+    background: linear-gradient(300deg, #8F5BFE 40%, #E38913 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
 
 .menu__delice-papilles {
   background-color: #EDEFEF;
   box-shadow: 5px 5px 5px 5px gray;
   overflow: hidden;
-  font-family: "SF Chrome Fenders Oblique"; }
+  font-family: "Dancing Script"; }
   .menu__delice-papilles h2 {
-    font-size: 2rem; }
-  .menu__delice-papilles h3 {
-    font-size: 1.4rem; }
+    background: linear-gradient(45deg, #1530b7 10%, #56a7e6 60%, #56a7e6 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
 
 .menu__palette-gout {
   background-color: #FDFFFD;
@@ -260,6 +286,8 @@ ul {
   overflow: hidden;
   font-family: "Dancing Script"; }
   .menu__palette-gout h2 {
-    font-size: 2rem; }
-  .menu__palette-gout h3 {
-    font-size: 1.4rem; }
+    background: linear-gradient(45deg, #55924d 10%, #c8fa80 60%, #c8fa80 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "kaushanscript-regular";
+    font-style: oblique; }

@@ -11,12 +11,10 @@
 }
 	
 
-@mixin couleur-police-titre($restaurant){
-	h2{
-		font-size:2rem;
-		color:map-get($restaurant,coul_titre-rest);}	 
-	h3{
-		font-size:1.4rem;
-		color:map-get($restaurant,coul_titre-ent);}
+@mixin degrade{
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
+
 

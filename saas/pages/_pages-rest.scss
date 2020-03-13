@@ -2,6 +2,10 @@
 @import "../utils/variables";
 @import "../base/polices";
 
+.mention_legale{
+	text-align: justify;
+}
+
 .bloc_page{
 	display:flex;
 	flex-direction: column;
@@ -105,27 +109,45 @@ ul{
 
 .menu__note-enchantee{
 	@include couleur-fond-police($note_enchantee);
-	@include couleur-police-titre($note_enchantee);
+
+	color:lighten(map-get($note_enchantee,coul_titre_rest),5%);
+
+	h2, .menu__footer__name{font-family: map-get($note_enchantee,font2);}
+	
 }
 
 .menu__chic-francais{
+
 	@include couleur-fond-police($chic_francais);
-	@include couleur-police-titre($chic_francais);
+	
 	.menu__entree{
 		color:map-get($chic_francais,coul_text_ent);}
 		.menu__plat{
 			color:map-get($chic_francais,coul_text_plat);}
 			.menu__dessert{
 				color:map-get($chic_francais,coul_text_des);}
+	h2{
+		background:linear-gradient(300deg, #8F5BFE 40%, #E38913 100%);
+		@include degrade;}
 }
 
 .menu__delice-papilles{
 	@include couleur-fond-police($delice_papille);
-	@include couleur-police-titre($delice_papille);
+
+	h2{
+		background:linear-gradient(45deg, #1530b7 10%, #56a7e6 60%, #56a7e6 80%);
+		@include degrade;}
+	
 }
 
 .menu__palette-gout{
+
 	@include couleur-fond-police($palette_gout);
-	@include couleur-police-titre($palette_gout);
+
+	h2{
+		background:linear-gradient(45deg, #55924d 10%, #c8fa80 60%, #c8fa80 80%);
+		@include degrade;
+		font-family: map-get($palette_gout,font2);
+		font-style: oblique;}
 }
 
