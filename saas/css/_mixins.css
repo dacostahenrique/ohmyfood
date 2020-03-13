@@ -71,3 +71,21 @@
   src: url("../police/Roboto/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../police/Roboto/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.woff2") format("woff2"), url("../police/Roboto/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.woff") format("woff"), url("../police/Roboto/roboto_lightcondenseditalic_macromanRobotoCondensed-LightItalic-webfont.ttf") format("truetype"), url("../police/Roboto/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.svg#roboto_condensedlight_italic") format("svg");
   font-weight: normal;
   font-style: normal; }
+/*Typo_comics light italic */
+@font-face {
+  font-family: "typo_comics_light_italic_demo";
+  src: url("../police/TYpo_comics/typo_comics_light_italic_demo.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/* Kauchan script */
+@font-face {
+  font-family: "kaushanscript-regular";
+  src: url("../police/Kauchan_script/kaushanscript-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/* Averia light italic */
+@font-face {
+  font-family: "averia-lightitalic";
+  src: url("../police/Averia/averia-lightitalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }

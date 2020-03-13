@@ -34,3 +34,56 @@ font-size: 1.2rem}
 .bulle-3 {
 	animation: pulse .4s ease .4s infinite alternate;
 }
+
+
+@media screen and (max-width: 600px){
+
+	.proche {
+		margin-bottom: 23%;
+		width: 45%;
+		padding-top: 0.5%;
+		padding-bottom: 0.5%;
+		font-size: 1rem}
+}
+
+@media screen and (max-width: 980px){
+	.proche{
+		margin-bottom: 8%;
+	}
+}
+
+@media screen and (max-width: 860px){
+	.proche{
+		margin-bottom: 12%;
+	}
+}
+
+@media screen and (min-width: 700px) and (max-width: 860px){
+	.proche{
+		margin-bottom: 10%;
+	}
+}
+
+@media screen and (min-width: 520px) and (max-width: 620px){
+	.proche{
+		margin-bottom: 13%;
+	}
+}
+
+@media screen and (min-width: 450px) and (max-width: 520px){
+	.proche{
+		margin-bottom: 16%;
+	}
+}
+
+@media screen and (min-width: 380px) and (max-width: 449px){
+	.proche{
+		margin-bottom: 18%;
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 379px){
+	.proche{
+		margin-bottom: 22%;
+	}
+}

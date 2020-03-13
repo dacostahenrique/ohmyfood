@@ -5,7 +5,7 @@
 
 @mixin couleur-fond-police($restaurant){
 	 background-color: map-get($restaurant,coul_fond_page);
-	 box-shadow: 5px 5px 5px 5px gray;
+	 box-shadow: 1px 1px 2px gray;
 	 overflow:hidden;
 	 font-family: map-get($restaurant,font);
 }

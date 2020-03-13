@@ -1,0 +1,5 @@
+@media screen and (max-width: 701px) {
+  ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center; } }

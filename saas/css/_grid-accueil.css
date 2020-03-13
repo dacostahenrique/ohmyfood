@@ -25,9 +25,17 @@ body {
   height: auto; }
 
 .restaurant__menu {
-  box-shadow: 5px 5px 5px 5px gray;
+  box-shadow: 1px 1px 2px gray;
   overflow: hidden; }
 
 .restaurant__menu img:hover {
   opacity: 0.3;
   transform: scale(1.1); }
+
+@media screen and (max-width: 701px) {
+  .restaurant {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px; } }
