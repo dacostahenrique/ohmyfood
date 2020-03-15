@@ -1,15 +1,22 @@
 @import "../utils/variables";
 
 .header {
-width: 100%;
-background-color: map-get($header-footer_proche,coul_fond);
-padding: 10px 0;
-text-align: center;
+	width: 100%;
+	background-color: map-get($header-footer_proche,coul_fond);
+	padding: 10px 0;
+	text-align: center;
 }
 
 
 .header img{
-width: 40%;
-height: auto;
-color:map-get($header-footer_proche,coul_logo);
+	width: 40%;
+	height: auto;
+	color:map-get($header-footer_proche,coul_logo);
 }
+
+@media screen and (max-width: 700px) {
+	.header img{
+	width: 60%;
+	height: auto;}
+}
+	

@@ -8,3 +8,8 @@
   width: 40%;
   height: auto;
   color: #FDCB46; }
+
+@media screen and (max-width: 700px) {
+  .header img {
+    width: 60%;
+    height: auto; } }
