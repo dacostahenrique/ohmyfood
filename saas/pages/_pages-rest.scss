@@ -176,71 +176,18 @@ ul{
 		padding-right: 5%;}
 	}
 
-	@media screen and (min-width: 900px) and (max-width: 1000px){
-		section{
-		
-		margin-bottom: 8%;}
-	}
-
-	@media screen and (min-width: 850px) and (max-width: 900px){
-		section{
-		
-		margin-bottom: 9%;}
-	}
-
-	@media screen and (min-width: 800px) and (max-width: 849px){
-		section{
-		
-		margin-bottom: 9%;}
-	}
-
-	@media screen and (min-width: 750px) and (max-width: 799px){
-		section{
-		
-		margin-bottom: 10%;}
-	}
-
-	@media screen and (min-width: 701px) and (max-width: 749px){
-		section{
-		
-		margin-bottom: 10%;}
-	}
-
-
-	@media screen and (min-width: 650px) and (max-width: 700px){
-		section{
-		
-		margin-bottom: 11%;}
-	}
-
-	@media screen and (min-width: 600px) and (max-width: 649px){
-		section{
-		
-		margin-bottom: 12%;}
-	}
-
-	@media screen and (min-width: 550px) and (max-width: 599px){
-		section{
-		
-		margin-bottom: 14%;}
-	}
-
-	@media screen and (min-width: 440px) and (max-width: 549px){
-		section{
-		margin-bottom: 16%;}
-	}
-
-	@media screen and (min-width: 390px) and (max-width: 439px){
-		section{
-		
-		margin-bottom: 18%;}
-	}
-
-	@media screen and (min-width: 320px) and (max-width: 389px){
-		section{
-		
-		margin-bottom: 22%;}
-		
+	section{
+		@include break(b1,b2,m1-2);
+		@include break(b3,b4,m3-4);
+		@include break(b5,b6,m5-6);
+		@include break(b7,b8,m7-8);
+		@include break(b9,b10,m9-10);
+		@include break(b11,b12,m11-12);
+		@include break(b13,b14,m13-14);
+		@include break(b15,b16,m15-16);
+		@include break(b17,b18,m17-18);
+		@include break(b19,b20,m19-20);
+		@include break(b21,b22,m21-22);
 	}
 
 

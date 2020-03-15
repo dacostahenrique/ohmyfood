@@ -16,5 +16,9 @@
     -webkit-text-fill-color: transparent;
 }
 
-
+@mixin break ($b1,$b2,$m1-2){
+	@media screen and (min-width: map-get($bp,$b1)) and (max-width: map-get($bp,$b2)){
+		margin-bottom: map-get($mb,$m1-2);
+	}
+}
 
