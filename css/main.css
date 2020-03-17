@@ -1,23 +1,23 @@
 @charset "UTF-8";
-/* Police Note enchant├®e - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Note enchantée - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "Devonshire-Regular";
   src: url("../police/Devonshire-Regular/Devonshire-Regular.eot?") format("eot"), url("../police/Devonshire-Regular/Devonshire-Regular.woff") format("woff"), url("../police/Devonshire-Regular/Devonshire-Regular.ttf") format("truetype"), url("../police/Devonshire-Regular/Devonshire-Regular.svg#Devonshire-Regular") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police Chic fran├ºais - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Chic français - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "JD Carnival Black";
   src: url("../police/JD_Carnival_Black/jd_carnival_black.eot?") format("eot"), url("../police/JD_Carnival_Black/jd_carnival_black.woff") format("woff"), url("../police/JD_Carnival_Black/jd_carnival_black.ttf") format("truetype"), url("../police/JD_Carnival_Black/jd_carnival_black.svg#JDCarnivalBlack-Black") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police D├®lice papilles - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Délice papilles - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "SF Chrome Fenders Oblique";
   src: url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.eot?") format("eot"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.woff") format("woff"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.ttf") format("truetype"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.svg#SFChromeFenders-Oblique") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police Palette go├╗ts - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Palette goûts - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "Dancing Script";
   src: url("../police/Dancing_Script/Dancing_Script.eot?") format("eot"), url("../police/Dancing_Script/Dancing_Script.woff") format("woff"), url("../police/Dancing_Script/Dancing_Script.ttf") format("truetype"), url("../police/Dancing_Script/Dancing_Script.svg#DancingScript") format("svg");
@@ -89,25 +89,25 @@
   src: url("../police/Averia/averia-lightitalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
-/* Police Note enchant├®e - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Note enchantée - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "Devonshire-Regular";
   src: url("../police/Devonshire-Regular/Devonshire-Regular.eot?") format("eot"), url("../police/Devonshire-Regular/Devonshire-Regular.woff") format("woff"), url("../police/Devonshire-Regular/Devonshire-Regular.ttf") format("truetype"), url("../police/Devonshire-Regular/Devonshire-Regular.svg#Devonshire-Regular") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police Chic fran├ºais - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Chic français - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "JD Carnival Black";
   src: url("../police/JD_Carnival_Black/jd_carnival_black.eot?") format("eot"), url("../police/JD_Carnival_Black/jd_carnival_black.woff") format("woff"), url("../police/JD_Carnival_Black/jd_carnival_black.ttf") format("truetype"), url("../police/JD_Carnival_Black/jd_carnival_black.svg#JDCarnivalBlack-Black") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police D├®lice papilles - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Délice papilles - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "SF Chrome Fenders Oblique";
   src: url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.eot?") format("eot"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.woff") format("woff"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.ttf") format("truetype"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.svg#SFChromeFenders-Oblique") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police Palette go├╗ts - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Palette goûts - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "Dancing Script";
   src: url("../police/Dancing_Script/Dancing_Script.eot?") format("eot"), url("../police/Dancing_Script/Dancing_Script.woff") format("woff"), url("../police/Dancing_Script/Dancing_Script.ttf") format("truetype"), url("../police/Dancing_Script/Dancing_Script.svg#DancingScript") format("svg");
@@ -202,6 +202,26 @@
   to {
     margin-left: 100%;
     width: 200%; } }
+h3::after {
+  content: "";
+  border-bottom: solid 2px black;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform-origin: 0% 50%;
+  transform: scaleX(0);
+  transition: transform 600ms cubic-bezier(0.32, 0, 0.07, 1); }
+
+.menu__chic-francais .titre1::after {
+  border-bottom: solid 2px #D18C3E; }
+.menu__chic-francais .titre2::after {
+  border-bottom: solid 2px #A56799; }
+.menu__chic-francais .titre3::after {
+  border-bottom: solid 2px #6E4CCC; }
+
+h3:hover::after {
+  transform: scaleX(1); }
+
 .header {
   width: 100%;
   background-color: #579C87;
@@ -294,21 +314,22 @@
 @media screen and (max-width: 860px) {
   .proche {
     margin-bottom: 12%; } }
-@media screen and (min-width: 700px) and (max-width: 860px) {
-  .proche {
-    margin-bottom: 10%; } }
-@media screen and (min-width: 520px) and (max-width: 620px) {
-  .proche {
-    margin-bottom: 13%; } }
-@media screen and (min-width: 450px) and (max-width: 520px) {
-  .proche {
-    margin-bottom: 16%; } }
-@media screen and (min-width: 380px) and (max-width: 449px) {
-  .proche {
-    margin-bottom: 18%; } }
 @media screen and (min-width: 300px) and (max-width: 379px) {
   .proche {
     margin-bottom: 22%; } }
+@media screen and (min-width: 380px) and (max-width: 449px) {
+  .proche {
+    margin-bottom: 18%; } }
+@media screen and (min-width: 450px) and (max-width: 520px) {
+  .proche {
+    margin-bottom: 16%; } }
+@media screen and (min-width: 520px) and (max-width: 620px) {
+  .proche {
+    margin-bottom: 13%; } }
+@media screen and (min-width: 700px) and (max-width: 860px) {
+  .proche {
+    margin-bottom: 10%; } }
+
 body {
   padding: 0;
   margin: 0; }
@@ -350,25 +371,25 @@ body {
     grid-template-columns: 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 20px; } }
-/* Police Note enchant├®e - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Note enchantée - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "Devonshire-Regular";
   src: url("../police/Devonshire-Regular/Devonshire-Regular.eot?") format("eot"), url("../police/Devonshire-Regular/Devonshire-Regular.woff") format("woff"), url("../police/Devonshire-Regular/Devonshire-Regular.ttf") format("truetype"), url("../police/Devonshire-Regular/Devonshire-Regular.svg#Devonshire-Regular") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police Chic fran├ºais - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Chic français - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "JD Carnival Black";
   src: url("../police/JD_Carnival_Black/jd_carnival_black.eot?") format("eot"), url("../police/JD_Carnival_Black/jd_carnival_black.woff") format("woff"), url("../police/JD_Carnival_Black/jd_carnival_black.ttf") format("truetype"), url("../police/JD_Carnival_Black/jd_carnival_black.svg#JDCarnivalBlack-Black") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police D├®lice papilles - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Délice papilles - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "SF Chrome Fenders Oblique";
   src: url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.eot?") format("eot"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.woff") format("woff"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.ttf") format("truetype"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.svg#SFChromeFenders-Oblique") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police Palette go├╗ts - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Palette goûts - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "Dancing Script";
   src: url("../police/Dancing_Script/Dancing_Script.eot?") format("eot"), url("../police/Dancing_Script/Dancing_Script.woff") format("woff"), url("../police/Dancing_Script/Dancing_Script.ttf") format("truetype"), url("../police/Dancing_Script/Dancing_Script.svg#DancingScript") format("svg");
@@ -440,25 +461,25 @@ body {
   src: url("../police/Averia/averia-lightitalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
-/* Police Note enchant├®e - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Note enchantée - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "Devonshire-Regular";
   src: url("../police/Devonshire-Regular/Devonshire-Regular.eot?") format("eot"), url("../police/Devonshire-Regular/Devonshire-Regular.woff") format("woff"), url("../police/Devonshire-Regular/Devonshire-Regular.ttf") format("truetype"), url("../police/Devonshire-Regular/Devonshire-Regular.svg#Devonshire-Regular") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police Chic fran├ºais - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Chic français - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "JD Carnival Black";
   src: url("../police/JD_Carnival_Black/jd_carnival_black.eot?") format("eot"), url("../police/JD_Carnival_Black/jd_carnival_black.woff") format("woff"), url("../police/JD_Carnival_Black/jd_carnival_black.ttf") format("truetype"), url("../police/JD_Carnival_Black/jd_carnival_black.svg#JDCarnivalBlack-Black") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police D├®lice papilles - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Délice papilles - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "SF Chrome Fenders Oblique";
   src: url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.eot?") format("eot"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.woff") format("woff"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.ttf") format("truetype"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.svg#SFChromeFenders-Oblique") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police Palette go├╗ts - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Palette goûts - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "Dancing Script";
   src: url("../police/Dancing_Script/Dancing_Script.eot?") format("eot"), url("../police/Dancing_Script/Dancing_Script.woff") format("woff"), url("../police/Dancing_Script/Dancing_Script.ttf") format("truetype"), url("../police/Dancing_Script/Dancing_Script.svg#DancingScript") format("svg");
@@ -625,7 +646,7 @@ ul {
   font-family: "typo_comics_light_italic_demo";
   font-style: oblique; }
   .menu__note-enchantee h2, .menu__note-enchantee .menu__footer__name {
-    font-family: "Devonshire-Regular"; }
+    font-family: "Devonshire-Regulars"; }
 
 .menu__chic-francais {
   background-color: #FFF5FE;

@@ -1,3 +1,6 @@
+@import "../utils/variables";
+
+
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-5px, 0, 0);
@@ -38,4 +41,36 @@
     margin-left: 100%;
     width: 200%;
   }
+}
+
+
+h3::after{
+  content: "";
+  border-bottom: solid 2px black;
+  display :block;
+  width: 100%;
+  height: 100%;
+  transform-origin: 0% 50%;
+  transform: scaleX(0);
+  transition: transform 600ms cubic-bezier(.32,0,.07,1); 
+}
+
+.menu__chic-francais{
+
+  & .titre1::after{
+    border-bottom: solid 2px map-get($chic_francais, coul_titre_ent);
+  }
+
+  & .titre2::after{
+    border-bottom: solid 2px map-get($chic_francais, coul_titre_plat);
+  }
+
+  & .titre3::after{
+    border-bottom: solid 2px map-get($chic_francais, coul_titre_des);
+  }
+
+}
+
+h3:hover::after{
+  transform: scaleX(1);
 }

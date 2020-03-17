@@ -16,9 +16,14 @@
     -webkit-text-fill-color: transparent;
 }
 
-@mixin break ($b1,$b2,$m1-2){
-	@media screen and (min-width: map-get($bp,$b1)) and (max-width: map-get($bp,$b2)){
-		margin-bottom: map-get($mb,$m1-2);
+@mixin break_pages_rest ($b1,$b2,$m1-2){
+	@media screen and (min-width: map-get($bp_pages_rest,$b1)) and (max-width: map-get($bp_pages_rest,$b2)){
+		margin-bottom: map-get($mb_pages_rest,$m1-2);
 	}
 }
 
+@mixin break_page_accueil ($b1,$b2,$m1-2){
+	@media screen and (min-width: map-get($bp_page_accueil,$b1)) and (max-width: map-get($bp_page_accueil,$b2)){
+		margin-bottom: map-get($mb_page_accueil,$m1-2);
+	}
+}

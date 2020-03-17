@@ -1,5 +1,4 @@
 $note_enchantee:(
-nom: ".menu__note-enchantee",
 coul_titre_rest:#3D1319,
 coul_titre_ent:#3D1319,
 coul_titre_plat:#3D1319,
@@ -10,13 +9,10 @@ coul_text_ent:false,
 coul_text_plat:false,
 coul_text_des:false,
 font:"typo_comics_light_italic_demo",
-font2:"Devonshire-Regular"
-);
-
+font2:"Devonshire-Regulars");
 
 
 $chic_francais:(
-nom: ".menu__chic-francais",
 coul_titre_rest:false,
 coul_titre_ent:#D18C3E,
 coul_titre_plat:#A56799,
@@ -30,7 +26,6 @@ font:"JD Carnival Black"
 );
 
 $delice_papille:(
-nom: ".menu__delice-papilles",
 coul_titre_rest:false,
 coul_titre_ent:#000000,
 coul_titre_plat:#000000,
@@ -44,7 +39,6 @@ font:"Dancing Script"
 );
 
 $palette_gout:(
-nom: ".menu__palette-gout",
 coul_titre_rest:false,
 coul_titre_ent:#000000,
 coul_titre_plat:#000000,
@@ -64,7 +58,7 @@ coul_logo:#FDCB46,
 coul_text:#FDCB46
 );
 
-$bp:(
+$bp_pages_rest:(
 
 b1:320px,
 b2:389px,
@@ -99,7 +93,7 @@ b20:900px,
 b21:900px,
 b22:1000px);
 
-$mb:(
+$mb_pages_rest:(
 
 m1-2:22%,
 
@@ -122,3 +116,33 @@ m17-18:9%,
 m19-20:9%,
 
 m21-22:8%);
+
+
+$bp_page_accueil:(
+
+b1:300px,
+b2:379px,
+
+b3:380px,
+b4:449px,
+
+b5:450px,
+b6:520px,
+
+b7:520px,
+b8:620px,
+
+b9:700px,
+b10:860px);
+
+$mb_page_accueil:(
+
+m1-2:22%,
+
+m3-4:18%,
+
+m5-6:16%,
+
+m7-8:13%,
+
+m9-10:10%);

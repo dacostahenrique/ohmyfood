@@ -177,17 +177,17 @@ ul{
 	}
 
 	section{
-		@include break(b1,b2,m1-2);
-		@include break(b3,b4,m3-4);
-		@include break(b5,b6,m5-6);
-		@include break(b7,b8,m7-8);
-		@include break(b9,b10,m9-10);
-		@include break(b11,b12,m11-12);
-		@include break(b13,b14,m13-14);
-		@include break(b15,b16,m15-16);
-		@include break(b17,b18,m17-18);
-		@include break(b19,b20,m19-20);
-		@include break(b21,b22,m21-22);
+		@include break_pages_rest(b1,b2,m1-2);
+		@include break_pages_rest(b3,b4,m3-4);
+		@include break_pages_rest(b5,b6,m5-6);
+		@include break_pages_rest(b7,b8,m7-8);
+		@include break_pages_rest(b9,b10,m9-10);
+		@include break_pages_rest(b11,b12,m11-12);
+		@include break_pages_rest(b13,b14,m13-14);
+		@include break_pages_rest(b15,b16,m15-16);
+		@include break_pages_rest(b17,b18,m17-18);
+		@include break_pages_rest(b19,b20,m19-20);
+		@include break_pages_rest(b21,b22,m21-22);
 	}
 
 
@@ -218,5 +218,10 @@ ul{
 	 	height: auto;}
 
 	}
+
+
+	
+
+
 
 
