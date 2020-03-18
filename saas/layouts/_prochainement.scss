@@ -1,8 +1,9 @@
 @import "../utils/variables";
+@import "../utils/mixins";
 
 .proche {
 display:grid;
-grid-template-column: 1fr;
+grid-template-columns: 1fr;
 width: 40%;
 margin-top: 1%;
 margin-bottom: 7%;

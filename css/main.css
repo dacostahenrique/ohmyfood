@@ -268,9 +268,99 @@ h3:hover::after {
   .footer__contact:hover {
     animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both; }
 
+/* Police Note enchantée - @font-face kit by Fonts2u (https://fonts2u.com) */
+@font-face {
+  font-family: "Devonshire-Regular";
+  src: url("../police/Devonshire-Regular/Devonshire-Regular.eot?") format("eot"), url("../police/Devonshire-Regular/Devonshire-Regular.woff") format("woff"), url("../police/Devonshire-Regular/Devonshire-Regular.ttf") format("truetype"), url("../police/Devonshire-Regular/Devonshire-Regular.svg#Devonshire-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* Police Chic français - @font-face kit by Fonts2u (https://fonts2u.com) */
+@font-face {
+  font-family: "JD Carnival Black";
+  src: url("../police/JD_Carnival_Black/jd_carnival_black.eot?") format("eot"), url("../police/JD_Carnival_Black/jd_carnival_black.woff") format("woff"), url("../police/JD_Carnival_Black/jd_carnival_black.ttf") format("truetype"), url("../police/JD_Carnival_Black/jd_carnival_black.svg#JDCarnivalBlack-Black") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* Police Délice papilles - @font-face kit by Fonts2u (https://fonts2u.com) */
+@font-face {
+  font-family: "SF Chrome Fenders Oblique";
+  src: url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.eot?") format("eot"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.woff") format("woff"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.ttf") format("truetype"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.svg#SFChromeFenders-Oblique") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* Police Palette goûts - @font-face kit by Fonts2u (https://fonts2u.com) */
+@font-face {
+  font-family: "Dancing Script";
+  src: url("../police/Dancing_Script/Dancing_Script.eot?") format("eot"), url("../police/Dancing_Script/Dancing_Script.woff") format("woff"), url("../police/Dancing_Script/Dancing_Script.ttf") format("truetype"), url("../police/Dancing_Script/Dancing_Script.svg#DancingScript") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* Kalam-Light */
+@font-face {
+  font-family: "Kalam-Light";
+  src: url("../police/Kalam/Kalam-light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/*Roboto Thin Italic */
+@font-face {
+  font-family: 'robotothin_italic';
+  src: url("../police/Roboto/roboto_thinitalic_macroman/Roboto-ThinItalic-webfont.eot");
+  src: url("../police/Roboto/roboto_thinitalic_macroman/Roboto-ThinItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../police/Roboto/roboto_thinitalic_macroman/Roboto-ThinItalic-webfont.woff2") format("woff2"), url("../police/Roboto/roboto_thinitalic_macroman/Roboto-ThinItalic-webfont.woff") format("woff"), url("../police/Roboto/roboto_thinitalic_macroman/Roboto-ThinItalic-webfont.ttf") format("truetype"), url("../police/Roboto/roboto_thinitalic_macroman/Roboto-ThinItalic-webfont.svg#robotothin_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* Roboto Light Italic */
+@font-face {
+  font-family: 'robotolight_italic';
+  src: url("../police/Roboto/roboto_lightitalic_macroman/Roboto-LightItalic-webfont.eot");
+  src: url("../police/Roboto/roboto_lightitalic_macroman/Roboto-LightItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../police/Roboto/roboto_lightitalic_macroman/Roboto-LightItalic-webfont.woff2") format("woff2"), url("../police/Roboto/roboto_lightitalic_macroman/Roboto-LightItalic-webfont.woff") format("woff"), url("../police/Roboto/roboto_lightitalic_macroman/Roboto-LightItalic-webfont.ttf") format("truetype"), url("../police/Roboto/roboto_lightitalic_macroman/Roboto-LightItalic-webfont.svg#robotolight_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* Roboto Italic */
+@font-face {
+  font-family: 'robotoitalic';
+  src: url("../police/Roboto/roboto_italic_macroman/Roboto-Italic-webfont.eot");
+  src: url("../police/Roboto/roboto_italic_macroman/Roboto-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../police/Roboto/roboto_italic_macroman/Roboto-Italic-webfont.woff2") format("woff2"), url("../police/Roboto/roboto_italic_macroman/Roboto-Italic-webfont.woff") format("woff"), url("../police/Roboto/roboto_italic_macroman/Roboto-Italic-webfont.ttf") format("truetype"), url("../police/Roboto/roboto_italic_macroman/Roboto-Italic-webfont.svg#robotoitalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* Roboto condensed italic */
+@font-face {
+  font-family: 'roboto_condenseditalic';
+  src: url("../police/Roboto/roboto_condenseditalic_macroman/RobotoCondensed-Italic-webfont.eot");
+  src: url("../police/Roboto/roboto_condenseditalic_macroman/RobotoCondensed-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../police/Roboto/roboto_condenseditalic_macroman/RobotoCondensed-Italic-webfont.woff2") format("woff2"), url("../police/Roboto/roboto_condenseditalic_macroman/RobotoCondensed-Italic-webfont.woff") format("woff"), url("../police/Roboto/roboto_condenseditalic_macroman/RobotoCondensed-Italic-webfont.ttf") format("truetype"), url("../police/Roboto/roboto_condenseditalic_macroman/RobotoCondensed-Italic-webfont.svg#roboto_condenseditalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* Roboto light condensed */
+@font-face {
+  font-family: 'roboto_condensedlight';
+  src: url("../police/Roboto/roboto_lightcondensed_macroman/RobotoCondensed-Light-webfont.eot");
+  src: url("../police/Roboto/roboto_lightcondensed_macroman/RobotoCondensed-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../police/Roboto/roboto_lightcondensed_macroman/RobotoCondensed-Light-webfont.woff2") format("woff2"), url("../police/Roboto/roboto_lightcondensed_macroman/RobotoCondensed-Light-webfont.woff") format("woff"), url("../police/Roboto/roboto_lightcondensed_macroman/RobotoCondensed-Light-webfont.ttf") format("truetype"), url("../police/Roboto/roboto_lightcondensed_macroman/RobotoCondensed-Light-webfont.svg#roboto_condensedlight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* Roboto light condensed italic */
+@font-face {
+  font-family: 'roboto_condensedlight_italic';
+  src: url("../police/Roboto/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.eot");
+  src: url("../police/Roboto/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../police/Roboto/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.woff2") format("woff2"), url("../police/Roboto/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.woff") format("woff"), url("../police/Roboto/roboto_lightcondenseditalic_macromanRobotoCondensed-LightItalic-webfont.ttf") format("truetype"), url("../police/Roboto/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.svg#roboto_condensedlight_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/*Typo_comics light italic */
+@font-face {
+  font-family: "typo_comics_light_italic_demo";
+  src: url("../police/TYpo_comics/typo_comics_light_italic_demo.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/* Kauchan script */
+@font-face {
+  font-family: "kaushanscript-regular";
+  src: url("../police/Kauchan_script/kaushanscript-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/* Averia light italic */
+@font-face {
+  font-family: "averia-lightitalic";
+  src: url("../police/Averia/averia-lightitalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 .proche {
   display: grid;
-  grid-template-column: 1fr;
+  grid-template-columns: 1fr;
   width: 40%;
   margin-top: 1%;
   margin-bottom: 7%;
