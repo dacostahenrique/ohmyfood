@@ -31,11 +31,15 @@ box-shadow: 1px 1px 2px gray;
 overflow:hidden;
 }
 
+/* Animation effet de grossissement et de transparence au passage sur chacun des 4 restaurants dans la page d'accueil */
+
 .restaurant__menu img:hover{
 	opacity:0.3;
 	transform:scale(1.10);
 
 }
+
+/* Responsive affichage 4 restaurant en 2 colonnes / 2 lignes vers 1 colonne / 4 lignes en dessous de 701px */
 
 @media screen and (max-width: 701px){
 

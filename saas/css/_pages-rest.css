@@ -1,23 +1,23 @@
 @charset "UTF-8";
-/* Police Note enchant├®e - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Note enchantée - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "Devonshire-Regular";
   src: url("../police/Devonshire-Regular/Devonshire-Regular.eot?") format("eot"), url("../police/Devonshire-Regular/Devonshire-Regular.woff") format("woff"), url("../police/Devonshire-Regular/Devonshire-Regular.ttf") format("truetype"), url("../police/Devonshire-Regular/Devonshire-Regular.svg#Devonshire-Regular") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police Chic fran├ºais - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Chic français - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "JD Carnival Black";
   src: url("../police/JD_Carnival_Black/jd_carnival_black.eot?") format("eot"), url("../police/JD_Carnival_Black/jd_carnival_black.woff") format("woff"), url("../police/JD_Carnival_Black/jd_carnival_black.ttf") format("truetype"), url("../police/JD_Carnival_Black/jd_carnival_black.svg#JDCarnivalBlack-Black") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police D├®lice papilles - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Délice papilles - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "SF Chrome Fenders Oblique";
   src: url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.eot?") format("eot"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.woff") format("woff"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.ttf") format("truetype"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.svg#SFChromeFenders-Oblique") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police Palette go├╗ts - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Palette goûts - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "Dancing Script";
   src: url("../police/Dancing_Script/Dancing_Script.eot?") format("eot"), url("../police/Dancing_Script/Dancing_Script.woff") format("woff"), url("../police/Dancing_Script/Dancing_Script.ttf") format("truetype"), url("../police/Dancing_Script/Dancing_Script.svg#DancingScript") format("svg");
@@ -89,25 +89,25 @@
   src: url("../police/Averia/averia-lightitalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
-/* Police Note enchant├®e - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Note enchantée - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "Devonshire-Regular";
   src: url("../police/Devonshire-Regular/Devonshire-Regular.eot?") format("eot"), url("../police/Devonshire-Regular/Devonshire-Regular.woff") format("woff"), url("../police/Devonshire-Regular/Devonshire-Regular.ttf") format("truetype"), url("../police/Devonshire-Regular/Devonshire-Regular.svg#Devonshire-Regular") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police Chic fran├ºais - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Chic français - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "JD Carnival Black";
   src: url("../police/JD_Carnival_Black/jd_carnival_black.eot?") format("eot"), url("../police/JD_Carnival_Black/jd_carnival_black.woff") format("woff"), url("../police/JD_Carnival_Black/jd_carnival_black.ttf") format("truetype"), url("../police/JD_Carnival_Black/jd_carnival_black.svg#JDCarnivalBlack-Black") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police D├®lice papilles - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Délice papilles - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "SF Chrome Fenders Oblique";
   src: url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.eot?") format("eot"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.woff") format("woff"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.ttf") format("truetype"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.svg#SFChromeFenders-Oblique") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police Palette go├╗ts - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Palette goûts - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "Dancing Script";
   src: url("../police/Dancing_Script/Dancing_Script.eot?") format("eot"), url("../police/Dancing_Script/Dancing_Script.woff") format("woff"), url("../police/Dancing_Script/Dancing_Script.ttf") format("truetype"), url("../police/Dancing_Script/Dancing_Script.svg#DancingScript") format("svg");
@@ -200,6 +200,7 @@ section {
   margin-bottom: 7%;
   font-size: 1.1rem; }
 
+/* Alignement et taille police des titres h2 et h3 */
 h2, h3 {
   text-align: center; }
 
@@ -209,6 +210,7 @@ h2 {
 h3 {
   font-size: 1.3rem; }
 
+/* Disposition du détail des menus et des prix correspondants sur 2 colonnes en display grid et alignement des textes */
 ul {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -233,13 +235,15 @@ ul {
   align-items: center;
   margin-top: 5%; }
 
+.menu__header-nom {
+  margin-top: 0; }
+
+/* Taille icone note de music en-têt pour le seul restaurant La note enchantée */
 .note_music {
   width: 10%;
   height: auto; }
 
-.menu__header-nom {
-  margin-top: 0; }
-
+/* Paramètres note de music et nom restaurant en bas du menu pour le seul resturant La note enchantée */
 .menu__footer {
   width: 100%;
   height: 30%;
@@ -256,6 +260,7 @@ ul {
   width: 5%;
   height: auto; }
 
+/* Disposition des titres de menus et des barres horizontales gauche et droite pour les 4 restaurants */
 .menu__entree-titre, .menu__plat-titre, .menu__dessert-titre {
   display: flex;
   justify-content: space-between;
@@ -267,6 +272,7 @@ ul {
 .trait__gauche, .trait__droit {
   width: 30%; }
 
+/* Couleurs et polices des 4 pages restaurants par utilisation de mixins et de cartes de variables */
 .menu__note-enchantee {
   background-color: #FDE0DC;
   box-shadow: 1px 1px 2px gray;
@@ -274,7 +280,7 @@ ul {
   font-family: "typo_comics_light_italic_demo";
   font-style: oblique; }
   .menu__note-enchantee h2, .menu__note-enchantee .menu__footer__name {
-    font-family: "Devonshire-Regular"; }
+    font-family: "Devonshire-Regulars"; }
 
 .menu__chic-francais {
   background-color: #FFF5FE;
@@ -314,6 +320,8 @@ ul {
     font-family: "averia-lightitalic";
     font-style: oblique; }
 
+/* REsponsive disposition du détail menu et des prix correspondants passant de 2 colonnes / 1 ligne à 1 colonne / 2 lignes 
+en display grid et adaptation de la taille de police des titres h2 en-dessous d'un break-point à 699 px */
 @media screen and (max-width: 699px) {
   ul {
     display: grid;
@@ -326,6 +334,8 @@ ul {
     font-size: 1.8rem;
     padding-left: 5%;
     padding-right: 5%; } }
+/* Responsive margin-bottom entre le bas des menus et le footer fixe pour les 4 restaurants pour différents breakpoints définis 
+dans une carte de variables */
 @media screen and (min-width: 320px) and (max-width: 389px) {
   section {
     margin-bottom: 22%; } }
@@ -360,6 +370,9 @@ ul {
   section {
     margin-bottom: 8%; } }
 
+/* Responsive centrage des menus sur l'écran en dessous de 700px,
+taille des barres horizontales gauche et droite en dessous de 700px pour les 4 restaurants,
+taille de la note de music en bas de menu pour le seul restaurant La note enchantée en dessous de 700px */
 @media screen and (max-width: 700px) {
   section {
     margin-left: 10%;

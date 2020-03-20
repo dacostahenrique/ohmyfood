@@ -89,6 +89,14 @@
   src: url("../police/Averia/averia-lightitalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+/* Carte de variables couleurs et polices pour chacun des 4 restaurants */
+/* Couleurs header, prochainement et footer  */
+/* Breakpoint margin bottom entre le bas des menus et le footer fixe pour les 4 restaurants */
+/* Breakpoints entre le Prochainement et le footer fixe pour la seule page d'accueil */
+/* Carte de variables couleurs et polices pour chacun des 4 restaurants */
+/* Couleurs header, prochainement et footer  */
+/* Breakpoint margin bottom entre le bas des menus et le footer fixe pour les 4 restaurants */
+/* Breakpoints entre le Prochainement et le footer fixe pour la seule page d'accueil */
 /* Police Note enchantée - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "Devonshire-Regular";
@@ -179,6 +187,14 @@
   src: url("../police/Averia/averia-lightitalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+/* MIxin couleurs polices pour les 4 restaurants */
+/* dégradé titre h2 pour les resturants Le chic français, Le délice des papilles et La palette du goût */
+/* Responsive margin bottom des menus et footer fixe pour les 4 restaurants */
+/* Responsive margin bottom Prochainement et footer fixe pour la seule page d'accueil */
+/* Carte de variables couleurs et polices pour chacun des 4 restaurants */
+/* Couleurs header, prochainement et footer  */
+/* Breakpoint margin bottom entre le bas des menus et le footer fixe pour les 4 restaurants */
+/* Breakpoints entre le Prochainement et le footer fixe pour la seule page d'accueil */
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-5px, 0, 0); }
@@ -188,6 +204,7 @@
     transform: translate3d(-20px, 0, 0); }
   40%, 60% {
     transform: translate3d(20px, 0, 0); } }
+/* Animation points Prochainements */
 @keyframes pulse {
   from {
     opacity: 1;
@@ -195,13 +212,7 @@
   to {
     opacity: .20;
     transform: scale(0.7); } }
-@keyframes slidein {
-  from {
-    margin-right: 0%;
-    width: 100%; }
-  to {
-    margin-left: 100%;
-    width: 200%; } }
+/* Soulignement des titres de menus Entrée Plat Dessert */
 h3::after {
   content: "";
   border-bottom: solid 2px black;
@@ -212,6 +223,10 @@ h3::after {
   transform: scaleX(0);
   transition: transform 600ms cubic-bezier(0.32, 0, 0.07, 1); }
 
+h3:hover::after {
+  transform: scaleX(1); }
+
+/* Couleurs du soulignement pour le seul restaurant Le chic français */
 .menu__chic-francais .titre1::after {
   border-bottom: solid 2px #D18C3E; }
 .menu__chic-francais .titre2::after {
@@ -219,9 +234,10 @@ h3::after {
 .menu__chic-francais .titre3::after {
   border-bottom: solid 2px #6E4CCC; }
 
-h3:hover::after {
-  transform: scaleX(1); }
-
+/* Carte de variables couleurs et polices pour chacun des 4 restaurants */
+/* Couleurs header, prochainement et footer  */
+/* Breakpoint margin bottom entre le bas des menus et le footer fixe pour les 4 restaurants */
+/* Breakpoints entre le Prochainement et le footer fixe pour la seule page d'accueil */
 .header {
   width: 100%;
   background-color: #579C87;
@@ -233,10 +249,15 @@ h3:hover::after {
   height: auto;
   color: #FDCB46; }
 
+/* REsponsive logo header - breakpoint < 700px */
 @media screen and (max-width: 700px) {
   .header img {
     width: 60%;
     height: auto; } }
+/* Carte de variables couleurs et polices pour chacun des 4 restaurants */
+/* Couleurs header, prochainement et footer  */
+/* Breakpoint margin bottom entre le bas des menus et le footer fixe pour les 4 restaurants */
+/* Breakpoints entre le Prochainement et le footer fixe pour la seule page d'accueil */
 .footer {
   box-sizing: content-box;
   display: grid;
@@ -257,17 +278,27 @@ h3:hover::after {
 .footer__mention-legale {
   text-align: left;
   padding-left: 30px;
-  transition-property: animation; }
+  transition-property: animation;
+  /*Animation tremblement Mentions légales*/ }
   .footer__mention-legale:hover {
     animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both; }
 
 .footer__contact {
   text-align: right;
   padding-right: 30px;
-  transition-property: animation; }
+  transition-property: animation;
+  /*Animation tremblement Contact*/ }
   .footer__contact:hover {
     animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both; }
 
+/* Carte de variables couleurs et polices pour chacun des 4 restaurants */
+/* Couleurs header, prochainement et footer  */
+/* Breakpoint margin bottom entre le bas des menus et le footer fixe pour les 4 restaurants */
+/* Breakpoints entre le Prochainement et le footer fixe pour la seule page d'accueil */
+/* Carte de variables couleurs et polices pour chacun des 4 restaurants */
+/* Couleurs header, prochainement et footer  */
+/* Breakpoint margin bottom entre le bas des menus et le footer fixe pour les 4 restaurants */
+/* Breakpoints entre le Prochainement et le footer fixe pour la seule page d'accueil */
 /* Police Note enchantée - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "Devonshire-Regular";
@@ -358,6 +389,10 @@ h3:hover::after {
   src: url("../police/Averia/averia-lightitalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+/* MIxin couleurs polices pour les 4 restaurants */
+/* dégradé titre h2 pour les resturants Le chic français, Le délice des papilles et La palette du goût */
+/* Responsive margin bottom des menus et footer fixe pour les 4 restaurants */
+/* Responsive margin bottom Prochainement et footer fixe pour la seule page d'accueil */
 .proche {
   display: grid;
   grid-template-columns: 1fr;
@@ -382,6 +417,7 @@ h3:hover::after {
   background-color: #FDCB46;
   transition-property: animation; }
 
+/* Animation 3 petits points prochainement */
 .bulle-1 {
   animation: pulse .4s ease 0s infinite alternate; }
 
@@ -391,6 +427,7 @@ h3:hover::after {
 .bulle-3 {
   animation: pulse .4s ease .4s infinite alternate; }
 
+/* REsponsive distance prochainement et footer fixe selon différents breakpoints*/
 @media screen and (max-width: 600px) {
   .proche {
     margin-bottom: 23%;
@@ -450,10 +487,12 @@ body {
   box-shadow: 1px 1px 2px gray;
   overflow: hidden; }
 
+/* Animation effet de grossissement et de transparence au passage sur chacun des 4 restaurants dans la page d'accueil */
 .restaurant__menu img:hover {
   opacity: 0.3;
   transform: scale(1.1); }
 
+/* Responsive affichage 4 restaurant en 2 colonnes / 2 lignes vers 1 colonne / 4 lignes en dessous de 701px */
 @media screen and (max-width: 701px) {
   .restaurant {
     width: 70%;
@@ -461,6 +500,10 @@ body {
     grid-template-columns: 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 20px; } }
+/* Carte de variables couleurs et polices pour chacun des 4 restaurants */
+/* Couleurs header, prochainement et footer  */
+/* Breakpoint margin bottom entre le bas des menus et le footer fixe pour les 4 restaurants */
+/* Breakpoints entre le Prochainement et le footer fixe pour la seule page d'accueil */
 /* Police Note enchantée - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "Devonshire-Regular";
@@ -551,6 +594,14 @@ body {
   src: url("../police/Averia/averia-lightitalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+/* MIxin couleurs polices pour les 4 restaurants */
+/* dégradé titre h2 pour les resturants Le chic français, Le délice des papilles et La palette du goût */
+/* Responsive margin bottom des menus et footer fixe pour les 4 restaurants */
+/* Responsive margin bottom Prochainement et footer fixe pour la seule page d'accueil */
+/* Carte de variables couleurs et polices pour chacun des 4 restaurants */
+/* Couleurs header, prochainement et footer  */
+/* Breakpoint margin bottom entre le bas des menus et le footer fixe pour les 4 restaurants */
+/* Breakpoints entre le Prochainement et le footer fixe pour la seule page d'accueil */
 /* Police Note enchantée - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "Devonshire-Regular";
@@ -662,6 +713,7 @@ section {
   margin-bottom: 7%;
   font-size: 1.1rem; }
 
+/* Alignement et taille police des titres h2 et h3 */
 h2, h3 {
   text-align: center; }
 
@@ -671,6 +723,7 @@ h2 {
 h3 {
   font-size: 1.3rem; }
 
+/* Disposition du détail des menus et des prix correspondants sur 2 colonnes en display grid et alignement des textes */
 ul {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -695,13 +748,15 @@ ul {
   align-items: center;
   margin-top: 5%; }
 
+.menu__header-nom {
+  margin-top: 0; }
+
+/* Taille icone note de music en-têt pour le seul restaurant La note enchantée */
 .note_music {
   width: 10%;
   height: auto; }
 
-.menu__header-nom {
-  margin-top: 0; }
-
+/* Paramètres note de music et nom restaurant en bas du menu pour le seul resturant La note enchantée */
 .menu__footer {
   width: 100%;
   height: 30%;
@@ -718,6 +773,7 @@ ul {
   width: 5%;
   height: auto; }
 
+/* Disposition des titres de menus et des barres horizontales gauche et droite pour les 4 restaurants */
 .menu__entree-titre, .menu__plat-titre, .menu__dessert-titre {
   display: flex;
   justify-content: space-between;
@@ -729,6 +785,7 @@ ul {
 .trait__gauche, .trait__droit {
   width: 30%; }
 
+/* Couleurs et polices des 4 pages restaurants par utilisation de mixins et de cartes de variables */
 .menu__note-enchantee {
   background-color: #FDE0DC;
   box-shadow: 1px 1px 2px gray;
@@ -776,6 +833,8 @@ ul {
     font-family: "averia-lightitalic";
     font-style: oblique; }
 
+/* REsponsive disposition du détail menu et des prix correspondants passant de 2 colonnes / 1 ligne à 1 colonne / 2 lignes 
+en display grid et adaptation de la taille de police des titres h2 en-dessous d'un break-point à 699 px */
 @media screen and (max-width: 699px) {
   ul {
     display: grid;
@@ -788,6 +847,8 @@ ul {
     font-size: 1.8rem;
     padding-left: 5%;
     padding-right: 5%; } }
+/* Responsive margin-bottom entre le bas des menus et le footer fixe pour les 4 restaurants pour différents breakpoints définis 
+dans une carte de variables */
 @media screen and (min-width: 320px) and (max-width: 389px) {
   section {
     margin-bottom: 22%; } }
@@ -822,6 +883,9 @@ ul {
   section {
     margin-bottom: 8%; } }
 
+/* Responsive centrage des menus sur l'écran en dessous de 700px,
+taille des barres horizontales gauche et droite en dessous de 700px pour les 4 restaurants,
+taille de la note de music en bas de menu pour le seul restaurant La note enchantée en dessous de 700px */
 @media screen and (max-width: 700px) {
   section {
     margin-left: 10%;

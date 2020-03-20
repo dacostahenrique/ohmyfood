@@ -1,23 +1,27 @@
 @charset "UTF-8";
-/* Police Note enchant├®e - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Carte de variables couleurs et polices pour chacun des 4 restaurants */
+/* Couleurs header, prochainement et footer  */
+/* Breakpoint margin bottom entre le bas des menus et le footer fixe pour les 4 restaurants */
+/* Breakpoints entre le Prochainement et le footer fixe pour la seule page d'accueil */
+/* Police Note enchantée - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "Devonshire-Regular";
   src: url("../police/Devonshire-Regular/Devonshire-Regular.eot?") format("eot"), url("../police/Devonshire-Regular/Devonshire-Regular.woff") format("woff"), url("../police/Devonshire-Regular/Devonshire-Regular.ttf") format("truetype"), url("../police/Devonshire-Regular/Devonshire-Regular.svg#Devonshire-Regular") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police Chic fran├ºais - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Chic français - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "JD Carnival Black";
   src: url("../police/JD_Carnival_Black/jd_carnival_black.eot?") format("eot"), url("../police/JD_Carnival_Black/jd_carnival_black.woff") format("woff"), url("../police/JD_Carnival_Black/jd_carnival_black.ttf") format("truetype"), url("../police/JD_Carnival_Black/jd_carnival_black.svg#JDCarnivalBlack-Black") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police D├®lice papilles - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Délice papilles - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "SF Chrome Fenders Oblique";
   src: url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.eot?") format("eot"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.woff") format("woff"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.ttf") format("truetype"), url("../police/SF_Chrome_Fenders_Oblique/SFChromeFenders-Oblique.svg#SFChromeFenders-Oblique") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Police Palette go├╗ts - @font-face kit by Fonts2u (https://fonts2u.com) */
+/* Police Palette goûts - @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
   font-family: "Dancing Script";
   src: url("../police/Dancing_Script/Dancing_Script.eot?") format("eot"), url("../police/Dancing_Script/Dancing_Script.woff") format("woff"), url("../police/Dancing_Script/Dancing_Script.ttf") format("truetype"), url("../police/Dancing_Script/Dancing_Script.svg#DancingScript") format("svg");
@@ -89,3 +93,7 @@
   src: url("../police/Averia/averia-lightitalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+/* MIxin couleurs polices pour les 4 restaurants */
+/* dégradé titre h2 pour les resturants Le chic français, Le délice des papilles et La palette du goût */
+/* Responsive margin bottom des menus et footer fixe pour les 4 restaurants */
+/* Responsive margin bottom Prochainement et footer fixe pour la seule page d'accueil */

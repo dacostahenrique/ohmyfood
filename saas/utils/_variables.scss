@@ -1,3 +1,5 @@
+/* Carte de variables couleurs et polices pour chacun des 4 restaurants */
+
 $note_enchantee:(
 coul_titre_rest:#3D1319,
 coul_titre_ent:#3D1319,
@@ -52,11 +54,15 @@ font:"averia-lightitalic",
 font2:"averia-lightitalic"
 );
 
+/* Couleurs header, prochainement et footer  */
+
 $header-footer_proche:(
 coul_fond:#579C87,
 coul_logo:#FDCB46,
 coul_text:#FDCB46
 );
+
+/* Breakpoint margin bottom entre le bas des menus et le footer fixe pour les 4 restaurants */
 
 $bp_pages_rest:(
 
@@ -117,6 +123,7 @@ m19-20:9%,
 
 m21-22:8%);
 
+/* Breakpoints entre le Prochainement et le footer fixe pour la seule page d'accueil */
 
 $bp_page_accueil:(
 

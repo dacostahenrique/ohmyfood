@@ -9,6 +9,7 @@
   height: auto;
   color: #FDCB46; }
 
+/* REsponsive logo header - breakpoint < 700px */
 @media screen and (max-width: 700px) {
   .header img {
     width: 60%;

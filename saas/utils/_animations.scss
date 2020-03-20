@@ -1,5 +1,6 @@
 @import "../utils/variables";
 
+/* Effet tremblement Mentions légales et Contact du footer */
 
 @keyframes shake {
   10%, 90% {
@@ -19,17 +20,7 @@
   }
 }
 
-
-@keyframes pulse {
-  from {
-    opacity: 1;
-    transform: scale(1);
-  }
-  to {
-    opacity: .20;
-    transform: scale(.70);
-  }
-}
+/* Alternative tremblement */
 
 @keyframes slidein {
   from {
@@ -43,6 +34,21 @@
   }
 }
 
+/* Animation points Prochainements */
+
+@keyframes pulse {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: .20;
+    transform: scale(.70);
+  }
+}
+
+
+/* Soulignement des titres de menus Entrée Plat Dessert */
 
 h3::after{
   content: "";
@@ -54,6 +60,12 @@ h3::after{
   transform: scaleX(0);
   transition: transform 600ms cubic-bezier(.32,0,.07,1); 
 }
+
+h3:hover::after{
+  transform: scaleX(1);
+}
+
+/* Couleurs du soulignement pour le seul restaurant Le chic français */
 
 .menu__chic-francais{
 
@@ -71,6 +83,3 @@ h3::after{
 
 }
 
-h3:hover::after{
-  transform: scaleX(1);
-}

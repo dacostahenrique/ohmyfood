@@ -1,7 +1,7 @@
 @import "../utils/variables";
 @import "../base/polices";
 
-
+/* MIxin couleurs polices pour les 4 restaurants */
 
 @mixin couleur-fond-police($restaurant){
 	 background-color: map-get($restaurant,coul_fond_page);
@@ -10,17 +10,22 @@
 	 font-family: map-get($restaurant,font);
 }
 	
+/* dégradé titre h2 pour les resturants Le chic français, Le délice des papilles et La palette du goût */
 
 @mixin degrade{
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+/* Responsive margin bottom des menus et footer fixe pour les 4 restaurants */
+
 @mixin break_pages_rest ($b1,$b2,$m1-2){
 	@media screen and (min-width: map-get($bp_pages_rest,$b1)) and (max-width: map-get($bp_pages_rest,$b2)){
 		margin-bottom: map-get($mb_pages_rest,$m1-2);
 	}
 }
+
+/* Responsive margin bottom Prochainement et footer fixe pour la seule page d'accueil */
 
 @mixin break_page_accueil ($b1,$b2,$m1-2){
 	@media screen and (min-width: map-get($bp_page_accueil,$b1)) and (max-width: map-get($bp_page_accueil,$b2)){

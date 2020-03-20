@@ -25,6 +25,7 @@ font-size: 1.2rem}
 	background-color: map-get($header-footer_proche,coul_text);
 	transition-property: animation;
 }
+ /* Animation 3 petits points prochainement */
 
 .bulle-1 {
 	animation: pulse .4s ease 0s infinite alternate;
@@ -36,6 +37,7 @@ font-size: 1.2rem}
 	animation: pulse .4s ease .4s infinite alternate;
 }
 
+/* REsponsive distance prochainement et footer fixe selon différents breakpoints*/
 
 @media screen and (max-width: 600px){
 
