@@ -10,7 +10,7 @@
 	 font-family: map-get($restaurant,font);
 }
 	
-/* dégradé titre h2 pour les resturants Le chic français, Le délice des papilles et La palette du goût */
+/* dégradé titre h2 pour les restaurants Le chic français, Le délice des papilles et La palette du goût */
 
 @mixin degrade{
 	-webkit-background-clip: text;

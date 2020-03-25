@@ -188,13 +188,14 @@
   font-weight: normal;
   font-style: normal; }
 /* MIxin couleurs polices pour les 4 restaurants */
-/* dégradé titre h2 pour les resturants Le chic français, Le délice des papilles et La palette du goût */
+/* dégradé titre h2 pour les restaurants Le chic français, Le délice des papilles et La palette du goût */
 /* Responsive margin bottom des menus et footer fixe pour les 4 restaurants */
 /* Responsive margin bottom Prochainement et footer fixe pour la seule page d'accueil */
 /* Carte de variables couleurs et polices pour chacun des 4 restaurants */
 /* Couleurs header, prochainement et footer  */
 /* Breakpoint margin bottom entre le bas des menus et le footer fixe pour les 4 restaurants */
 /* Breakpoints entre le Prochainement et le footer fixe pour la seule page d'accueil */
+/* Effet tremblement Mentions légales et Contact du footer */
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-5px, 0, 0); }
@@ -204,6 +205,14 @@
     transform: translate3d(-20px, 0, 0); }
   40%, 60% {
     transform: translate3d(20px, 0, 0); } }
+/* Alternative tremblement */
+@keyframes slidein {
+  from {
+    margin-right: 0%;
+    width: 100%; }
+  to {
+    margin-left: 100%;
+    width: 200%; } }
 /* Animation points Prochainements */
 @keyframes pulse {
   from {
@@ -390,7 +399,7 @@ h3:hover::after {
   font-weight: normal;
   font-style: normal; }
 /* MIxin couleurs polices pour les 4 restaurants */
-/* dégradé titre h2 pour les resturants Le chic français, Le délice des papilles et La palette du goût */
+/* dégradé titre h2 pour les restaurants Le chic français, Le délice des papilles et La palette du goût */
 /* Responsive margin bottom des menus et footer fixe pour les 4 restaurants */
 /* Responsive margin bottom Prochainement et footer fixe pour la seule page d'accueil */
 .proche {
@@ -488,9 +497,13 @@ body {
   overflow: hidden; }
 
 /* Animation effet de grossissement et de transparence au passage sur chacun des 4 restaurants dans la page d'accueil */
-.restaurant__menu img:hover {
-  opacity: 0.3;
-  transform: scale(1.1); }
+.restaurant__menu {
+  transform: scale(1);
+  opacity: 1;
+  transition: all 1000s 1000ms ease-in-out; }
+  .restaurant__menu img:hover {
+    transform: scale(1.3);
+    opacity: 0.3; }
 
 /* Responsive affichage 4 restaurant en 2 colonnes / 2 lignes vers 1 colonne / 4 lignes en dessous de 701px */
 @media screen and (max-width: 701px) {
@@ -595,7 +608,7 @@ body {
   font-weight: normal;
   font-style: normal; }
 /* MIxin couleurs polices pour les 4 restaurants */
-/* dégradé titre h2 pour les resturants Le chic français, Le délice des papilles et La palette du goût */
+/* dégradé titre h2 pour les restaurants Le chic français, Le délice des papilles et La palette du goût */
 /* Responsive margin bottom des menus et footer fixe pour les 4 restaurants */
 /* Responsive margin bottom Prochainement et footer fixe pour la seule page d'accueil */
 /* Carte de variables couleurs et polices pour chacun des 4 restaurants */
